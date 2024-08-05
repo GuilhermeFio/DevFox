@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.pagina-Landing {
+
+
+    .cabecalho {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        background-color: #FFE4D6;
+        max-height: 150px;
+        box-shadow: 1px 1px 3px #000;
+
+
+        nav ul {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 190px;
+            margin-left: 210px;
+        }
+
+
+        .logo {
+
+            width: 290px;
+    
+        }
+    
+    
+        nav {
+            position: relative;
+        }
+    
+        nav ul {
+            list-style: none;
+            padding: 0;
+    
+        }
+    
+        nav ul li {
+    
+            display: inline;
+            margin: 0 10px;
+            color: #000000;
+            font-family: 'Kanit';
+            font-size: 18px;
+        }
+    
+
+    }
+
+
+    
+
+    .secao1 {
+
+        .fundo {
+            max-width: 100%;
+        }
+
+        .texto1 {
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            position: absolute;
+            margin-top: 90px;
+            margin-left: 115px;
+            gap: 20px;
+
+
+            h3 {
+
+                width: 500px;
+                color: #fff;
+                font-size: 50px;
+                text-shadow: 1px 1px 3px #000;
+                font-family: 'Noto Sans';
+
+            }
+
+            p {
+
+                width: 450px;
+                font-size: 22px;
+                color: #fff;
+                text-shadow: 1px 1px 3px #000;
+                font-family: 'Roboto';
+
+            }
+
+        }
+
+
+    }
+
+
+    .secao2{
+
+        background-color: #000;
+
+
+        h2{
+
+            text-align: center;
+            color: #fff;
+            font-family: 'Oswald';
+            
+        }
+    
+
+}
+
+ 
+
+
+.brands{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: 10px;
+margin-top: 100px;
+padding: 30px;
+
+img{
+
+width: 150px;
+
+}
+}
+
+
+ .secao3{
+
+h2{
+
+    margin-top: 90px;
+    margin-left: 50px;
+    font-family: 'Oswald';
+    width: 400px;
+}
+
+ }
+
+    }
+

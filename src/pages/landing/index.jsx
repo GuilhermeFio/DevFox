@@ -19,6 +19,8 @@ function Landing() {
 
       </header>
 
+      <main className='principal'>
+
       <section className='secao1'>
 
         <div className='texto1'>
@@ -28,21 +30,15 @@ function Landing() {
 
         </div>
 
-        <img className='fundo' src='/assets/images/devfox-s1fundo.jpg' />
+       <img className='fundo' src='/assets/images/devfox-s1fundo.jpg' />
 
-
-
-
-      </section>
+       </section>
 
 
 
       <section className='secao2'>
 
      <h2>A frente no mercado com parcerias gigantes, como: </h2>
-
-  
-
 
           <div className='brands'>
 
@@ -60,8 +56,10 @@ function Landing() {
         
         <h2 className='texto3'> Aqui ofereçemos serviços de qualidade! Confira abaixo:  </h2>
         
+
      </section>
 
+     </main>
 
 
     </div>

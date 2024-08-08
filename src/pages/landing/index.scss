@@ -61,12 +61,20 @@
     }
 
 
-    
+    .principal{
+
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
 
     .secao1 {
-
+        display: flex;
+        flex-direction: column;
+    
+  
         .fundo {
             max-width: 100%;
+            
         }
 
         .texto1 {
@@ -109,6 +117,8 @@
 
     .secao2{
 
+        margin-top: 0px;
+
         background-color: #000;
 
 
@@ -116,6 +126,7 @@
 
             text-align: center;
             color: #fff;
+            margin-top: 20px;
             font-family: 'Oswald';
             
         }
@@ -156,4 +167,6 @@ h2{
  }
 
     }
+
+}
 

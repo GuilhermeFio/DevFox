@@ -11,9 +11,9 @@ function Landing() {
 
         <nav>
           <ul>
-            <li>Sobre Nós</li>
-            <li>Portfólio</li>
-            <li>Suporte</li>
+            <li className='sob'>Sobre Nós</li>
+            <li className='por'>Portfólio</li>
+            <li className='sup'>Suporte</li>
           </ul>
         </nav>
 
@@ -42,9 +42,9 @@ function Landing() {
 
           <div className='brands'>
 
-            <img src='/assets/images/devfox-s2bk.svg' />
-            <img src='/assets/images/devfox-s2pepsi.png' />
-            <img src='/assets/images/devfox-s2samsung.avif' />
+            <img src='/assets/images/burguer-king.png' />
+            <img className='pepsi' src='/assets/images/pepsipep.png' />
+            <img src='/assets/images/xiaomi.png'/>
 
         </div>
 

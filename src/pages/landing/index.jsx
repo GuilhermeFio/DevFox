@@ -45,7 +45,7 @@ function Landing() {
             <img src='/assets/images/burguer-king.png' />
             <img className='pepsi' src='/assets/images/pepsipep.png' />
             <img src='/assets/images/xiaomi.png'/>
-
+            
         </div>
 
 
@@ -54,7 +54,7 @@ function Landing() {
 
       <section className='secao3'> 
         
-        <h2 className='texto3'> Aqui ofereçemos serviços de qualidade! Confira abaixo:  </h2>
+        <h2 className='texto3'> Aqui ofereçemos serviços de qualidade! Confira abaixo: </h2>
         
 
      </section>

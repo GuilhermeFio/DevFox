@@ -132,7 +132,7 @@
 
         margin-top: 0px;
 
-        background-color: #888888;
+        background-color: #868686;
         
 
 
@@ -185,7 +185,7 @@
 
  .secao3{
 
-h2{
+ h2{
 
     margin-top: 90px;
     margin-left: 50px;
@@ -193,9 +193,61 @@ h2{
     width: 400px;
 }
 
+    .cartao {
+        display: flex;
+        flex-direction: column;
+        align-items:center;    
+        flex-wrap: wrap;
+
+        .cartao1 {
+            display: flex;
+            align-items:center;
+           
+            .imagens1{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .imagens2 {
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+    
+        .cartao2 {
+            display: flex;
+            align-items: center;
+
+            .imagens3{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .imagens4 {
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+    
+        .cartao img{
+            width: 368px;
+            height: 204px;
+            top: 92px;
+            gap: 0px;
+            margin: 30px;
+            
+        
+           } 
  }
+
+  
+
+  
 
     }
 
 }
 
+}

@@ -23,10 +23,11 @@ function Landing() {
 
       <section className='secao1'>
 
-        <div className='texto1'>
-
-          <h3>A equipe de desenvolvedores que você precisava!</h3>
-          <p>Há mais de 10 anos ajudando autônomos, empresários e startups a dar vida às suas ideias!</p>
+          <div className='texto1'>
+            <div className='opacidade'>  
+            <h3>A equipe de desenvolvedores que você precisava!</h3>
+            <p>Há mais de 10 anos ajudando autônomos, empresários e startups a dar vida às suas ideias!</p>
+          </div>
 
         </div>
 
@@ -47,26 +48,26 @@ function Landing() {
             <img src='/assets/images/xiaomi.png'/>
             
         </div>
-
-
-
+<br />
+       
+ <hr />
       </section>
 
       <section className='secao3'> 
         
-        <h2 className='texto3'> Aqui ofereçemos serviços de qualidade! Confira abaixo: </h2>
+        <h2 className='texto3'> Aqui oferecemos serviços de qualidade! Confira abaixo: </h2>
         
           <div className='cartao'>
             
              <div className='cartao1'>
 
               <div className='imagens1'>
-              <h1>1- Desenvolvimento web</h1>
+              <h1>1- Desenvolvimento Web</h1>
              <img src="/assets/images/web.jfif" alt="" />
               </div>
               
                <div className='imagens2'>
-               <h2>2-Cybersegurança</h2>
+               <h2>2- Cybersegurança</h2>
              <img src="/assets/images/seguranca.jfif" alt="" />
                </div>
              

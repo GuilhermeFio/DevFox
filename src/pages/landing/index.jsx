@@ -43,9 +43,9 @@ function Landing() {
 
           <div className='brands'>
 
-            <img src='/assets/images/burguer-king.png' />
-            <img className='pepsi' src='/assets/images/pepsipep.png' />
-            <img src='/assets/images/xiaomi.png'/>
+            <img src='/assets/images/BK.png' />
+            <img className='pepsi' src='/assets/images/pepe.png' />
+            <img src='/assets/images/xixi.png'/>
             
         </div>
 <br />
@@ -86,7 +86,14 @@ function Landing() {
                </div>
           
              </div>
-          </div>
+           </div>
+
+              <div className='secao4'>
+            
+            <div className='olhada'> 
+              <h1>Dê uma olhada em algumas avaliações</h1>
+            </div>
+              </div>
 
      </section>
 

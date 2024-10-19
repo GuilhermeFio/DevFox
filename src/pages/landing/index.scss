@@ -8,71 +8,62 @@
 
 
 .pagina-Landing {
+    display: flex;
+    flex-direction: column;
 
     .cabecalho {
         
-
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 30px;
+        justify-content: center;
+        padding: 10px;
         background-color: #FABE9C;
-        ;
-        max-height: 100px;
+        border: 1px solid black;
+        
+     
+        
 
-
-
-        nav ul {
-
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            gap: 190px;
-            margin-left: 210px;
-        }
-
-        nav ul .sob {
-            text-decoration: underline;
-        }
-
-        nav ul .por {
-            text-decoration: underline;
-        }
-
-        nav ul .sup {
-            text-decoration: underline;
-
-        }
-
-
-        .logo {
+        nav {
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: space-between;
+           border: 1px solid black;
+           min-width: 100%;
+           
+           .logo {
             
-            margin: 2px;
             width: 190px;
 
         }
 
 
-        nav {
-            position: relative;
-        }
+        ul {
 
-        nav ul {
-            list-style: none;
-            padding: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            
+            min-width: 50%;
+           
+            border: 1px solid black;
+            
+         
 
-        }
-
-        nav ul li {
-
+      
+        li {
+            
             display: inline;
-            margin: 0 10px;
             color: #000000;
             font-family: 'Kanit';
             font-size: 18px;
+            list-style: none;
         }
+    }
 
-
+    }
     }
 
 
@@ -85,22 +76,17 @@
         .secao1 {
             display: flex;
             flex-direction: column;
+            border: 1px solid black;
+            background-image: url('../../../public/assets/images/devfox-s1fundo.jpg');
 
 
-            .fundo {
-                max-width: 100%;
-
-            }
+            
 
             .texto1 {
 
 
                 display: flex;
                 flex-direction: column;
-                justify-content: flex-start;
-                position: absolute;
-                margin-top: 90px;
-                margin-left: 115px;
                 gap: 20px;
 
 
@@ -114,13 +100,10 @@
                     box-sizing: 3px;
                     padding: 20px;
                     border-radius: 0.5em;
+                    background-color: #f7f7f7;
+                    color: #000000;
+                    opacity: 0.5;
                 }
-
-               .opacidade h3 {
-                background-color: #f7f7f7;
-                color: #000000;
-                opacity: 0.5;
-               }
                     
                 p {
 
@@ -143,7 +126,7 @@
             margin-top: 0px;
 
             background-color: #ffffff;
-            ;
+            border: 1px solid black;
             
            
 

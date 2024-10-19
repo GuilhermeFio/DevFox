@@ -7,9 +7,10 @@ function Landing() {
     <div className="pagina-Landing">
 
       <header className='cabecalho'>
-        <img className='logo' src='/assets/images/devfox-logo.webp' />
+        
 
         <nav>
+         <img className='logo' src='/assets/images/devfox-logo.webp' />
           <ul>
             <li className='sob'>Sobre Nós</li>
             <li className='por'>Portfólio</li>
@@ -24,14 +25,13 @@ function Landing() {
       <section className='secao1'>
 
           <div className='texto1'>
-            <div className='opacidade'>  
+          
             <h3>A equipe de desenvolvedores que você precisava!</h3>
             <p>Há mais de 10 anos ajudando autônomos, empresários e startups a dar vida às suas ideias!</p>
-          </div>
+          
+          
 
         </div>
-
-       <img className='fundo' src='/assets/images/devfox-s1fundo.jpg' />
 
        </section>
 

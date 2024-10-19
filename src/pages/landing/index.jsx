@@ -8,31 +8,24 @@ function Landing() {
 
       <header className='cabecalho'>
         
-
-        <nav>
-         <img className='logo' src='/assets/images/devfox-logo.webp' />
           <ul>
-            <li className='sob'>Sobre Nós</li>
-            <li className='por'>Portfólio</li>
-            <li className='sup'>Suporte</li>
+          <img className='logo' src='/assets/images/devfox-logo.png' />
+            <li className='sob'>PATROCINADORES</li>
+            <li className='por'>SERVIÇOS</li>
+            <li className='sup'>AVALIAÇÕES</li>
           </ul>
-        </nav>
+        
 
       </header>
 
       <main className='principal'>
 
       <section className='secao1'>
-
-          <div className='texto1'>
           
-            <h3>A equipe de desenvolvedores que você precisava!</h3>
+            <h2>A equipe de desenvolvedores que você precisava!</h2>
             <p>Há mais de 10 anos ajudando autônomos, empresários e startups a dar vida às suas ideias!</p>
           
-          
-
-        </div>
-
+        
        </section>
 
 

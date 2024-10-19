@@ -16,27 +16,10 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-        padding: 10px;
         background-color: #FABE9C;
+        padding: 2vw;
         border: 1px solid black;
         
-     
-        
-
-        nav {
-           display: flex;
-           flex-direction: row;
-           align-items: center;
-           justify-content: space-between;
-           border: 1px solid black;
-           min-width: 100%;
-           
-           .logo {
-            
-            width: 190px;
-
-        }
 
 
         ul {
@@ -45,13 +28,15 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+            min-width: 100%;
             padding: 0px;
-            
-            min-width: 50%;
-           
             border: 1px solid black;
             
-         
+            .logo {
+            
+                width: 6vw;
+    
+            }
 
       
         li {
@@ -59,64 +44,56 @@
             display: inline;
             color: #000000;
             font-family: 'Kanit';
-            font-size: 18px;
+            font-size: 1.7vw;
             list-style: none;
         }
     }
 
     }
-    }
+    
 
 
     .principal {
 
         display: flex;
         flex-direction: column;
-        padding: 0px;
+       
 
         .secao1 {
             display: flex;
             flex-direction: column;
-            border: 1px solid black;
+            min-height: 100vh;
             background-image: url('../../../public/assets/images/devfox-s1fundo.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            border: 1px solid black;
+            padding: 6vw; 
+            gap: 4vw;           
 
 
-            
+                h2 {
 
-            .texto1 {
-
-
-                display: flex;
-                flex-direction: column;
-                gap: 20px;
-
-
-                h3 {
-
-                    width: 500px;
+                    max-width: 45%;
                     color: #f8f8f8;
-                    font-size: 50px;
+                    font:500 4vw 'Noto Sans';
                     text-shadow: 1px 1px 3px #000;
-                    font-family: 'Noto Sans';
-                    box-sizing: 3px;
-                    padding: 20px;
                     border-radius: 0.5em;
-                    background-color: #f7f7f7;
-                    color: #000000;
-                    opacity: 0.5;
+                
+                    
+                   
                 }
                     
                 p {
 
-                    width: 450px;
-                    font-size: 22px;
+                    max-width: 45%;
+                    font: 400 2vw 'Roboto';
                     color: #fff;
                     text-shadow: 1px 1px 3px #000;
                     font-family: 'Roboto';
 
                 }
 
-            }
+            
 
 
         }

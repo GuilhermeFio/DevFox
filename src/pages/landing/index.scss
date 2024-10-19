@@ -12,14 +12,14 @@
     flex-direction: column;
 
     .cabecalho {
-        
+
         display: flex;
         flex-direction: row;
         align-items: center;
         background-color: #FABE9C;
         padding: 2vw;
         border: 1px solid black;
-        
+
 
 
         ul {
@@ -31,33 +31,33 @@
             min-width: 100%;
             padding: 0px;
             border: 1px solid black;
-            
+
             .logo {
-            
+
                 width: 6vw;
-    
+
             }
 
-      
-        li {
-            
-            display: inline;
-            color: #000000;
-            font-family: 'Kanit';
-            font-size: 1.7vw;
-            list-style: none;
+
+            li {
+
+                display: inline;
+                color: #000000;
+                font-family: 'Kanit';
+                font-size: 1.7vw;
+                list-style: none;
+            }
         }
-    }
 
     }
-    
+
 
 
     .principal {
 
         display: flex;
         flex-direction: column;
-       
+
 
         .secao1 {
             display: flex;
@@ -67,33 +67,33 @@
             background-size: 100%;
             background-repeat: no-repeat;
             border: 1px solid black;
-            padding: 6vw; 
-            gap: 4vw;           
+            padding: 6vw;
+            gap: 4vw;
 
 
-                h2 {
+            h2 {
 
-                    max-width: 45%;
-                    color: #f8f8f8;
-                    font:500 4vw 'Noto Sans';
-                    text-shadow: 1px 1px 3px #000;
-                    border-radius: 0.5em;
-                
-                    
-                   
-                }
-                    
-                p {
+                max-width: 45%;
+                color: #f8f8f8;
+                font: 500 4vw 'Noto Sans';
+                text-shadow: 1px 1px 3px #000;
+                border-radius: 0.5em;
 
-                    max-width: 45%;
-                    font: 400 2vw 'Roboto';
-                    color: #fff;
-                    text-shadow: 1px 1px 3px #000;
-                    font-family: 'Roboto';
 
-                }
 
-            
+            }
+
+            p {
+
+                max-width: 45%;
+                font: 400 2vw 'Roboto';
+                color: #fff;
+                text-shadow: 1px 1px 3px #000;
+                font-family: 'Roboto';
+
+            }
+
+
 
 
         }
@@ -105,8 +105,8 @@
 
             background-color: #ffffff;
             border: 1px solid black;
-            
-           
+
+
 
             h2 {
 
@@ -117,187 +117,157 @@
 
             }
 
+            .brands {
 
-        }
-
- 
-
-        .brands {
-
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            padding: 10px;
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-            margin-top: 10px;
-        }
-
-        @keyframes slide {
-            0% {
-                transform: translateX(0);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 10px;
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                margin-top: 10px;
             }
 
-            50% {
-                transform: translateX(-50%);
+            @keyframes slide {
+                0% {
+                    transform: translateX(0);
+                }
+
+                50% {
+                    transform: translateX(-50%);
+                }
             }
-        }
 
-        .brands img {
-            width: 8em;
-            flex-shrink: 0;
-        }
+            .brands img {
+                width: 8em;
+                flex-shrink: 0;
+            }
 
-        .brands {
-            display: flex;
-            width: calc(50% * 2);
-            animation: slide 10s infinite linear;
-        }
+            .brands {
+                display: flex;
+                width: calc(50% * 2);
+                animation: slide 10s infinite linear;
+            }
 
-        .brands img {
-            width: 10em;
-            height: 10em;
+            .brands img {
+                width: 10em;
+                height: 10em;
+            }
+
+
+
         }
 
 
         .secao3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
             background-color: #FABE9C;
-            color: #fff;
             padding: 3em;
-            
-            .texto3 .h2 {
-                margin-top: 90px;
-                margin-left: 50px;
-                font-family: 'Oswald';
-                width: 400px;
-               
+            gap: 2em;
+
+            .texto3 {
+
+                font: 500 3vw 'Oswald';
+                max-width: 50%;
+                color: #fff;
+                align-self: flex-start;
+
+
             }
 
             .cartao {
-                flex-direction: column;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
                 align-items: center;
-                justify-content: center;
-                background-color:#FEA979;
-                ;
-                color: #fff;
-                border-radius: 2px;
-                margin-top: 2em;
-              
+                justify-content: space-around;
+                background-color: #FEA979;
+                border-radius: 20px;
+                gap: 2em;
+                padding: 2em;
 
-                .cartao1 {
-                    
+                div {
+
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    gap: 8em;
-                    padding: 3em;
-                    
-                    .imagens1 {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                       
-                        img {
-                            width: 30em;
-                            height: 20em;
-                            border-radius: 5em;
-                        }
 
-                        h1 {
-                            margin-top: 0px;
-                            text-align: center;
-                            font-family: 'Oswald';
-                            width: 400px;
-                        }
+
+                    h2 {
+                        text-align: center;
+                        font: 600 2vw 'Oswald';
+                        align-self: start;
+                        margin-left: 0.5em;
+                        color: #fff;
+
 
                     }
 
-                    .imagens2 {
-                        
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
+                    img {
+                        width: 30vw;
+                        height: 20vw;
+                        border-radius: 2em;
 
-     
-                        
-
-                        img {
-                            width: 30em;
-                            height: 20em;
-                            border-radius: 3em;
-                        }
-
-                        h2 {
-                            margin-top: 10px ;
-                            text-align: center;
-                            font-family: 'Oswald';
-                            width: 400px;
-                        }
                     }
-
                 }
 
-                .cartao2 {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    gap: 8em;
-                    padding: 3em;
 
-                    .imagens3 {
-                       
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-
-                        img {
-                            width: 30em;
-                            height: 20em;
-                            border-radius: 3em;
-                        }
-
-                        h3 {
-                            margin-top: 10px;
-                            text-align: center;
-                            font-family: 'Oswald';
-                            width: 100px;
-                        }
-                    }
-
-                    .imagens4 {
-                        
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-
-                        img {
-                            width: 30em;
-                            height: 20em;
-                            border-radius: 3em;
-                        }
-
-                        h4 {
-                            margin-top: 10px;
-                            text-align: center;
-                            font-family: 'Oswald';
-                            font-size: 20px;
-                            width: 400px;
-                            
-        }
-
-                }
 
             }
 
         }
 
+
+
     }
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        background-color: #000;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 5em;
+    .coluna{
+        display: flex;
+        flex-direction: column;
+        border: solid 1px white;
+        gap: 1em;
+
+        div{
+            display: flex;
+            flex-direction: row;
+            gap: 0.7em;
+            align-items: center;
+            justify-content: center;
+            #insta{
+                color: white;
+                
+            }
+
+            #x{
+                color: white;
+                
+            }
+
+
         }
 
+        p{
+            color: #f8f8f8;
+            font: 500 2vh 'Roboto'
+         
+        }
         
+    } 
+    
+   
+
+    }
+
 }

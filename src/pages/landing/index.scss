@@ -6,16 +6,21 @@
 
 
 
-           
+
+:target{
+
+scroll-margin-top: .8em;
+
+}
+
 @mixin white-gradient {
     
     background: linear-gradient(to right, rgb(255, 255, 255, 1) 0%, rgb(255, 255, 255, 0) 100%);
 }
+$animationSpeed: 40s;
 
-$animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na velocidade
 
-
-//animação
+//carrossel
 @keyframes scroll {
 
     0% {
@@ -23,15 +28,33 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
     }
 
     100% {
-        transform: translateX(calc(-250px * 10)); //aparentemente, mudar o primeiro valor e o segundo influencia na velocidade do carrossel
+        transform: translateX(calc(-250px * 10)); 
     }
+}
+
+@keyframes rainbow {
+
+    0%{
+      background-position: left;
+    }
+    50%{
+       background-position: right;
+    }
+    100%{
+        background-position: left;
+    }
+    
+}
+
+html{
+scroll-behavior: smooth;
 }
 
 
 .pagina-Landing {
     display: flex;
     flex-direction: column;
-
+  
     .cabecalho {
 
         display: flex;
@@ -40,7 +63,6 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
         background-color: #FABE9C;
         padding: 2vw;
         border: 1px solid black;
-
 
 
         ul {
@@ -54,25 +76,25 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
             border: 1px solid black;
 
             .logo {
-
                 width: 6vw;
-
             }
-
 
             li {
 
                 display: inline;
-                color: #000000;
                 font-family: 'Kanit';
                 font-size: 1.7vw;
                 list-style: none;
+
+                a{
+                
+                background: -webkit-linear-gradient(45deg, #e73718, #861501);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                }
             }
         }
-
     }
-
-
 
     .principal {
 
@@ -80,13 +102,12 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
         flex-direction: column;
         
 
-
         .secao1 {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
             background-image: url('../../../public/assets/images/devfox-s1fundo.jpg');
-            background-size: 100vw;
+            background-size: 100vw 100vh;
             background-repeat: no-repeat;
             border: 1px solid black;
             padding: 6vw;
@@ -100,9 +121,6 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
                 font: 500 4vw 'Noto Sans';
                 text-shadow: 1px 1px 3px #000;
                 border-radius: 0.5em;
-
-
-
             }
 
             p {
@@ -114,51 +132,47 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
                 font-family: 'Roboto';
 
             }
-
-
-
-
         }
 
 
         .secao2 {
 
             margin-top: 0px;
-
             background-color: #ffffff;
             border: 1px solid black;
-
-
+            overflow: hidden; 
+            position: relative;
+            width: 100%;
+            height: 40vh;
+            margin: auto;
+            padding: 2%;
 
             h2 {
 
                 text-align: center;
-                color: #fff;
+                color: #000000;
                 margin-top: 20px;
-                font-family: 'Oswald';
-
+                //font-family: 'Oswald';
+                font: 800 2vw 'Oswald';
             }
 
             &::before,
-    &::after { //ao que parece, são as divs que ficam nas laterais responsáveis por dar o efeito de desaparecimento às imagens quando elas chegam no fim e quando começam a aparecer.
-        @include white-gradient;
-        content: "";
-        height: 150px;
-        position: absolute;
-        width: 200px;
-        z-index: 2;
+            &::after { 
+            @include white-gradient;
+            content: "";
+            height: 39vh;
+            position: absolute;
+            width: 200px;
+            z-index: 2;
     }
-
     &::after {
-
+        top: 1%;
         right: 0;
-        top: 0;
         transform: rotateZ(180deg);
     }
-
     &::before {
         left: 0;
-        top: 0;
+        top: 1%;
     }
 
 
@@ -166,16 +180,15 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
 
         animation: scroll $animationSpeed linear infinite;
         display: flex;
-        width: calc(250px * 15); //acho que apenas indica a distancia entre as imagens
+        justify-content: center;
+        width: calc(250px * 21);
+        align-items: center;
+        margin-top: 2%;
     }
 
-    .slide { //tamanho das imagens, mas de qualquer forma já estão com seus tamanhos designados no HTML
-
-        height: 100px; 
-        width: 250px;
+    .slide {
+        width: 250px; 
     }
-
-
         }
 
 
@@ -195,8 +208,6 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
                 max-width: 50%;
                 color: #fff;
                 align-self: flex-start;
-
-
             }
 
             .cartao {
@@ -217,34 +228,25 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
                     align-items: center;
                     justify-content: center;
 
-
                     h2 {
                         text-align: center;
                         font: 600 2vw 'Oswald';
                         align-self: start;
                         margin-left: 0.5em;
                         color: #fff;
-
-
                     }
 
                     img {
                         width: 30vw;
                         height: 20vw;
                         border-radius: 2em;
-
                     }
                 }
-
-
-
             }
-
         }
-
-
-
     }
+
+
     .rodape{
         display: flex;
         flex-direction: row;
@@ -252,6 +254,7 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
         justify-content: space-between;
         align-items: center;
         padding: 1em 5em;
+
     .coluna{
         display: flex;
         flex-direction: column;
@@ -266,26 +269,17 @@ $animationSpeed: 40s; //tempo de exibição, que consequentemente mexe na veloci
             justify-content: center;
             #insta{
                 color: white;
-                
             }
 
             #x{
                 color: white;
-                
             }
-
-
         }
 
         p{
             color: #f8f8f8;
             font: 500 2vh 'Roboto'         
-        }
-        
-    } 
-    
-   background-image: url(../../../public/assets/images/BK.png);
-
-    }
-
-}
+        }   
+       } 
+      }
+     }

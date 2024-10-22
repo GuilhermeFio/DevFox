@@ -10,9 +10,9 @@ function Landing() {
 
         <ul>
           <img className='logo' src='/assets/images/devfox-logo.png' />
-          <li className='sob'>PATROCINADORES</li>
-          <li className='por'>SERVIÇOS</li>
-          <li className='sup'>AVALIAÇÕES</li>
+          <li className= 'sob'> <a href="#patrocinadores"> PATROCINADORES</a></li>
+          <li className= 'por'> <a href="#servicos"> SERVIÇOS</a></li>        
+          <li className= 'sup'> <a href="#avaliacoes"> AVALIAÇÕES</a></li>
         </ul>
 
 
@@ -25,12 +25,10 @@ function Landing() {
           <h2>A equipe de desenvolvedores que você precisava!</h2>
           <p>Há mais de 10 anos ajudando autônomos, empresários e startups a dar vida às suas ideias!</p>
 
-
         </section>
 
 
-
-        <section className='secao2'>
+        <section className='secao2' id='patrocinadores'>
 
           <h2>A frente no mercado com parcerias gigantes, como: </h2>
 
@@ -45,7 +43,28 @@ function Landing() {
                 <img src="/assets/images/xixi.png" height="150" width="190" />
             </div>
             <div class="slide">
-                <img src="/assets/images/coca-cola-logo-0.png" height="150" width="150" />
+                <img src="/assets/images/coca-cola-logo-0.png" height="190" width="190" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/adidas-39.png" height="90" width="100" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/nike_PNG12.png" height="90" width="170" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/BK.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/pepe.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/xixi.png" height="150" width="190" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/coca-cola-logo-0.png" height="190" width="190" />
             </div>
             <div class="slide">
                 <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
@@ -66,7 +85,7 @@ function Landing() {
                 <img src="/assets/images/xixi.png" height="150" width="190" />
             </div>
             <div class="slide">
-                <img src="/assets/images/coca-cola-logo-0.png" height="150" width="150" />
+                <img src="/assets/images/coca-cola-logo-0.png" height="190" width="190" />
             </div>
             <div class="slide">
                 <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
@@ -80,7 +99,7 @@ function Landing() {
         </div>
         </section>
 
-        <section className='secao3'>
+        <section className='secao3'  id='servicos'>
 
           <h2 className='texto3'> Aqui oferecemos serviços de qualidade! Confira abaixo: </h2>
 
@@ -113,7 +132,7 @@ function Landing() {
           </div>
         </section>
 
-        <section className='secao4'>
+        <section className='secao4' id='avaliacoes'>
 
           <div className='olhada'>
             <h1>Dê uma olhada em algumas avaliações</h1>
@@ -127,12 +146,9 @@ function Landing() {
 <div className='coluna'><p>Terms of use</p><p>Privacy Police</p></div>
 <div className='coluna'><p>@2024 devfox</p></div>
 
-
 </footer>
-
 
     </div>
   );
 }
-
 export default Landing;

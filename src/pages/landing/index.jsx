@@ -34,16 +34,50 @@ function Landing() {
 
           <h2>A frente no mercado com parcerias gigantes, como: </h2>
 
-          <div className='brands'>
-
-            <img src='/assets/images/BK.png' />
-            <img className='pepsi' src='/assets/images/pepe.png' />
-            <img src='/assets/images/xixi.png' />
-
-          </div>
-          <br />
-
-          <hr />
+          <div class="slide-track">
+            <div class="slide">
+                <img src="/assets/images/BK.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/pepe.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/xixi.png" height="150" width="190" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/coca-cola-logo-0.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/adidas-39.png" height="100" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/nike_PNG12.png" height="100" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/BK.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/pepe.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/xixi.png" height="150" width="190" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/coca-cola-logo-0.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/adidas-39.png" height="100" width="150" />
+            </div>
+            <div class="slide">
+                <img src="/assets/images/nike_PNG12.png" height="100" width="150" />
+            </div>
+        </div>
         </section>
 
         <section className='secao3'>

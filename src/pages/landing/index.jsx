@@ -134,8 +134,42 @@ function Landing() {
 
         <section className='secao4' id='avaliacoes'>
 
-          <div className='olhada'>
-            <h1>Dê uma olhada em algumas avaliações</h1>
+            <h1 className='tituloS4'>Dê uma olhada em algumas avaliações</h1>
+          <div className='pessoas'>
+
+            <div className='primeiro'>
+              <img src='/assets/images/mulherpoucofeliz.jfif'/>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat eos consectetur cupiditate ullam labore. Labore consequatur dolor impedit, autem eius, necessitatibus praesentium doloribus hic alias adipisci quam? Beatae, error nulla?</p>
+            </div>
+            <div className='segundo'>
+              <img src='/assets/images/mulherfeliz.jfif'/>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestiae iusto ducimus aliquid pariatur dolor voluptatibus consequuntur cumque soluta nihil earum numquam ratione vel, voluptate alias dolorum autem! Illum, amet.</p>
+            </div>
+            <div className='terceiro'>
+              <img src='/assets/images/homemfeliz.jfif'/>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum fugiat laudantium temporibus nam. Magnam corporis adipisci eveniet placeat totam alias, nobis nemo nostrum ut! Obcaecati qui deleniti esse commodi voluptates?</p>
+            </div>
+          </div>
+
+
+
+          <div className='empresas'>
+
+            <div className='primeiro'>
+              <p>Qualidade De Serviço</p>
+              <p><img src='/assets/images/star 1.png'/> 4.7/5.0</p>
+              <img src='/assets/images/globalTrevo.png'/>
+            </div>
+            <div className='segundo'>
+              <p>Comunicação</p>
+              <p><img src='/assets/images/star 1.png'/> 4.9/5.0</p>
+              <img src='/assets/images/tradeport.png'/>
+            </div>
+            <div className='terceiro'>
+              <p>Compromisso Com o Cliente</p>
+              <p><img src='/assets/images/star 1.png'/> 4.5/5.0</p>
+              <img src='/assets/images/startuphero.png'/>
+            </div>
           </div>
         </section>
 

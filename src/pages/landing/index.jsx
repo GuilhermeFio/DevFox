@@ -105,27 +105,53 @@ function Landing() {
 
           <div className='cartao'>
 
-            <div className='cartao1'>
+            <div id ='cartao1' className = 'serviços'>
 
               <h2>1- Desenvolvimento Web</h2>
+
+              <div className='separador'>
               <img src="/assets/images/web.jfif" alt="" />
+
+              <div className='textoinvisivel'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum commodi aliquid cupiditate optio. Aliquam enim officiis, illo sed, expedita quam cumque vel pariatur provident ratione ullam, nihil repellat sapiente.</p>
+              </div>
+              </div>
             </div>
 
-            <div className='cartao2'>
+            <div id ='cartao2' className = 'serviços'>
               <h2>2- Cybersegurança</h2>
+
+              <div className='separador'>
               <img src="/assets/images/seguranca.jfif" alt="" />
+              <div className='textoinvisivel'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum commodi aliquid cupiditate optio. Aliquam enim officiis, illo sed, expedita quam cumque vel pariatur provident ratione ullam, nihil repellat sapiente.</p>
+              </div>
+              </div>
+              
             </div>
 
 
 
-            <div className='cartao3'>
+            <div id ='cartao3' className = 'serviços'>
               <h2 className='uxui'>3- UX&UI</h2>
+
+              <div className='separador'>
               <img src="/assets/images/program.jfif" alt="" />
+              <div className='textoinvisivel'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum commodi aliquid cupiditate optio. Aliquam enim officiis, illo sed, expedita quam cumque vel pariatur provident ratione ullam, nihil repellat sapiente.</p>
+              </div>
+              </div>
             </div>
 
-            <div className='cartao4'>
+            <div id ='cartao4' className = 'serviços'>
               <h2>4- Data Analysis</h2>
+
+              <div className='separador'>
               <img src="/assets/images/grafico.jfif" alt="" />
+              <div className='textoinvisivel'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum commodi aliquid cupiditate optio. Aliquam enim officiis, illo sed, expedita quam cumque vel pariatur provident ratione ullam, nihil repellat sapiente.</p>
+              </div>
+              </div>
             </div>
 
 

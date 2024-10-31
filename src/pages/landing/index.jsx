@@ -113,7 +113,7 @@ function Landing() {
               <img src="/assets/images/web.jfif" alt="" />
 
               <div className='textoinvisivel'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum commodi aliquid cupiditate optio. Aliquam enim officiis, illo sed, expedita quam cumque vel pariatur provident ratione ullam, nihil repellat sapiente.</p>
+                <p>"Transformamos suas ideias em sites que impressionam! Nossa equipe cria páginas modernas, rápidas e adaptadas para qualquer tela, seja celular, tablet ou computador. Fazemos o seu negócio ganhar vida no digital, com foco em beleza e funcionalidade."</p>
               </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ function Landing() {
               <div className='separador'>
               <img src="/assets/images/seguranca.jfif" alt="" />
               <div className='textoinvisivel'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum commodi aliquid cupiditate optio. Aliquam enim officiis, illo sed, expedita quam cumque vel pariatur provident ratione ullam, nihil repellat sapiente.</p>
+                <p>"Sua segurança é nossa prioridade! Trabalhamos para blindar o seu site contra ameaças digitais, garantindo a proteção de dados e a confiança dos seus clientes. Deixe o lado técnico conosco, enquanto você foca em fazer seu negócio crescer."</p>
               </div>
               </div>
               
@@ -138,7 +138,7 @@ function Landing() {
               <div className='separador'>
               <img src="/assets/images/program.jfif" alt="" />
               <div className='textoinvisivel'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum commodi aliquid cupiditate optio. Aliquam enim officiis, illo sed, expedita quam cumque vel pariatur provident ratione ullam, nihil repellat sapiente.</p>
+                <p>"Para nós, design é muito mais que beleza: é criar uma experiência! Projetamos sites intuitivos, onde cada elemento é pensado para guiar o visitante de forma simples e agradável, criando uma navegação fluida e que deixa uma ótima impressão."</p>
               </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ function Landing() {
               <div className='separador'>
               <img src="/assets/images/grafico.jfif" alt="" />
               <div className='textoinvisivel'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum commodi aliquid cupiditate optio. Aliquam enim officiis, illo sed, expedita quam cumque vel pariatur provident ratione ullam, nihil repellat sapiente.</p>
+                <p>"Sabemos que entender o comportamento dos visitantes é essencial para crescer. Por isso, usamos dados para revelar oportunidades e tendências, ajudando você a tomar decisões mais assertivas e a melhorar continuamente a experiência do seu site."</p>
               </div>
               </div>
             </div>
@@ -165,15 +165,15 @@ function Landing() {
 
             <div className='primeiro'>
               <img src='/assets/images/mulherpoucofeliz.jfif'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat eos consectetur cupiditate ullam labore. Labore consequatur dolor impedit, autem eius, necessitatibus praesentium doloribus hic alias adipisci quam? Beatae, error nulla?</p>
+              <p>"Graças a DevFox, finalmente realizei o sonho de ter meu próprio site!"</p>
             </div>
             <div className='segundo'>
               <img src='/assets/images/mulherfeliz.jfif'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestiae iusto ducimus aliquid pariatur dolor voluptatibus consequuntur cumque soluta nihil earum numquam ratione vel, voluptate alias dolorum autem! Illum, amet.</p>
+              <p>"Tive um ótimo atendimento e fizeram um trabalho incrível para meu negócio! Super Recomendo!"</p>
             </div>
             <div className='terceiro'>
               <img src='/assets/images/homemfeliz.jfif'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum fugiat laudantium temporibus nam. Magnam corporis adipisci eveniet placeat totam alias, nobis nemo nostrum ut! Obcaecati qui deleniti esse commodi voluptates?</p>
+              <p>"Estou muito satisfeito com o trabalho dessa equipe! Eles criaram um site moderno e fácil de navegar, que funciona perfeitamente em qualquer dispositivo".</p>
             </div>
           </div>
 
@@ -181,17 +181,17 @@ function Landing() {
 
           <div className='empresas'>
 
-            <div className='primeiro'>
+            <div className='first'>
               <p>Qualidade De Serviço</p>
               <p><img src='/assets/images/star 1.png'/> 4.7/5.0</p>
               <img src='/assets/images/globalTrevo.png'/>
             </div>
-            <div className='segundo'>
+            <div className='second'>
               <p>Comunicação</p>
               <p><img src='/assets/images/star 1.png'/> 4.9/5.0</p>
               <img src='/assets/images/tradeport.png'/>
             </div>
-            <div className='terceiro'>
+            <div className='third'>
               <p>Compromisso Com o Cliente</p>
               <p><img src='/assets/images/star 1.png'/> 4.5/5.0</p>
               <img src='/assets/images/startuphero.png'/>

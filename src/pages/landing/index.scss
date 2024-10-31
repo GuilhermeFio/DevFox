@@ -13,6 +13,9 @@ scroll-margin-top: .8em;
 
 }
 
+
+
+
 @mixin white-gradient {
     
     background: linear-gradient(to right, rgb(255, 255, 255, 1) 0%, rgb(255, 255, 255, 0) 100%);
@@ -60,9 +63,11 @@ scroll-behavior: smooth;
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         background-color: #FABE9C;
         padding: 2vw;
         border: 1px solid black;
+        
 
 
         ul {
@@ -72,7 +77,9 @@ scroll-behavior: smooth;
             align-items: center;
             justify-content: space-between;
             min-width: 100%;
+            max-width: 90vw;
             padding: 0px;
+            flex-wrap: wrap;
 
             .logo {
                 width: 5em;
@@ -82,7 +89,7 @@ scroll-behavior: smooth;
 
                 display: inline;
                 font-family: 'Kanit';
-                font-size: 1.7em;
+                font-size: 1.7vw;
                 list-style: none;
 
                 
@@ -109,7 +116,6 @@ scroll-behavior: smooth;
             min-height: 100vh;
             background-image: url('../../../public/assets/images/devfox-s1fundo.jpg');
             background-size: 100vw 100vh;
-            background-repeat: no-repeat;
             border: 1px solid black;
             padding: 6vw;
             gap: 4vw;
@@ -202,10 +208,11 @@ scroll-behavior: smooth;
             background-color: #FABE9C;
             padding: 3em;
             gap: 2em;
+            border: #000 1px solid;
 
             .texto3 {
 
-                font: 500 3em 'Oswald';
+                font: 500 3vw 'Oswald';
                 max-width: 50%;
                 color: #000;
                 align-self: flex-start;
@@ -295,15 +302,19 @@ scroll-behavior: smooth;
             gap: 20px;
             justify-content: space-around;
             min-height: 100vh;
+            border: #000 1px solid;
 
             .tituloS4{
                 text-align: center;
+                font: 500 2em 'Oswald';
             }
 
             .pessoas{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 2em;
                 
 
                 img{
@@ -313,6 +324,7 @@ scroll-behavior: smooth;
                 div{
                     max-width: 200px;
                     display: flex;
+
                     p{
                         text-align: center;
                     }
@@ -341,10 +353,45 @@ scroll-behavior: smooth;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 2em;
+                
                 
 
                 img{
                     height: 30px;
+                }
+
+                div{
+                    max-width: 15em;
+                    min-width: 15em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    justify-items: center;
+                    align-content: space-around;
+                    p{
+                        text-align: center;
+                        font: 400 1.5em 'Oswald';
+                    }
+                }
+
+                .first{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 3vh
+                }
+
+                .second{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 3vh
+                }
+
+                .third{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 3vh
                 }
             }
 
@@ -360,6 +407,8 @@ scroll-behavior: smooth;
         justify-content: space-between;
         align-items: center;
         padding: 1em 5em;
+        flex-wrap: wrap;
+        gap: 1em;
 
     .coluna{
         display: flex;
@@ -387,4 +436,9 @@ scroll-behavior: smooth;
         }   
        } 
       }
+
+      
      }
+
+
+     

@@ -202,8 +202,8 @@ function Landing() {
       </main>
 
       <footer className='rodape'>
-<div className='coluna'><div><i id='insta' class="fa-brands fa-instagram"></i><p>@devfox</p></div><div><i id='x'class="fa-brands fa-x-twitter"></i><p>@devfox</p></div></div>
-<div className='coluna'><p>Terms of use</p><p>Privacy Police</p></div>
+<div className='coluna'><div><i id='insta' class="fa-brands fa-instagram"></i><p>@devfox</p></div></div>
+<div className='coluna'><div><i id='x'class="fa-brands fa-x-twitter"></i><p>@devfox</p></div></div>
 <div className='coluna'><p>@2024 devfox</p></div>
 
 </footer>

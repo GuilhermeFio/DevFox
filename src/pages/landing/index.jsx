@@ -113,7 +113,7 @@ function Landing() {
               <img src="/assets/images/web.jfif" alt="" />
 
               <div className='textoinvisivel'>
-                <p>"Transformamos suas ideias em sites que impressionam! Nossa equipe cria páginas modernas, rápidas e adaptadas para qualquer tela, seja celular, tablet ou computador. Fazemos o seu negócio ganhar vida no digital, com foco em beleza e funcionalidade."</p>
+                <p>Transformamos suas ideias em sites que impressionam! Nossa equipe cria páginas modernas, rápidas e adaptadas para qualquer tela, seja celular, tablet ou computador. Fazemos o seu negócio ganhar vida no digital, com foco em beleza e funcionalidade.</p>
               </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ function Landing() {
               <div className='separador'>
               <img src="/assets/images/seguranca.jfif" alt="" />
               <div className='textoinvisivel'>
-                <p>"Sua segurança é nossa prioridade! Trabalhamos para blindar o seu site contra ameaças digitais, garantindo a proteção de dados e a confiança dos seus clientes. Deixe o lado técnico conosco, enquanto você foca em fazer seu negócio crescer."</p>
+                <p>Sua segurança é nossa prioridade! Trabalhamos para blindar o seu site contra ameaças digitais, garantindo a proteção de dados e a confiança dos seus clientes. Deixe o lado técnico conosco, enquanto você foca em fazer seu negócio crescer.</p>
               </div>
               </div>
               
@@ -138,7 +138,7 @@ function Landing() {
               <div className='separador'>
               <img src="/assets/images/program.jfif" alt="" />
               <div className='textoinvisivel'>
-                <p>"Para nós, design é muito mais que beleza: é criar uma experiência! Projetamos sites intuitivos, onde cada elemento é pensado para guiar o visitante de forma simples e agradável, criando uma navegação fluida e que deixa uma ótima impressão."</p>
+                <p>Para nós, design é muito mais que beleza: é criar uma experiência! Projetamos sites intuitivos, onde cada elemento é pensado para guiar o visitante de forma simples e agradável, criando uma navegação fluida e que deixa uma ótima impressão.</p>
               </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ function Landing() {
               <div className='separador'>
               <img src="/assets/images/grafico.jfif" alt="" />
               <div className='textoinvisivel'>
-                <p>"Sabemos que entender o comportamento dos visitantes é essencial para crescer. Por isso, usamos dados para revelar oportunidades e tendências, ajudando você a tomar decisões mais assertivas e a melhorar continuamente a experiência do seu site."</p>
+                <p>Sabemos que entender o comportamento dos visitantes é essencial para crescer. Por isso, usamos dados para revelar oportunidades e tendências, ajudando você a tomar decisões mais assertivas e a melhorar continuamente a experiência do seu site.</p>
               </div>
               </div>
             </div>

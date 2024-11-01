@@ -385,7 +385,11 @@ scroll-behavior: smooth;
                 .second{
                     display: flex;
                     flex-direction: column;
-                    gap: 3vh
+                    gap: 3vh;
+
+                    .tp{
+                        background-color: #000;
+                    }
                 }
 
                 .third{

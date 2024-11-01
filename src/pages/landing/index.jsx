@@ -189,7 +189,7 @@ function Landing() {
             <div className='second'>
               <p>Comunicação</p>
               <p><img src='/assets/images/star 1.png'/> 4.9/5.0</p>
-              <img src='/assets/images/tradeport.png'/>
+              <img className='tp' src='/assets/images/tradeport.png'/>
             </div>
             <div className='third'>
               <p>Compromisso Com o Cliente</p>

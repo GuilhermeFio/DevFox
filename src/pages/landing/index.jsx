@@ -183,17 +183,17 @@ function Landing() {
 
             <div className='first'>
               <p>Qualidade De Serviço</p>
-              <p><img src='/assets/images/star 1.png'/> 4.7/5.0</p>
+              <p className='ava'><img src='/assets/images/estrela.png'/> 4.7/5.0</p>
               <img src='/assets/images/globalTrevo.png'/>
             </div>
             <div className='second'>
               <p>Comunicação</p>
-              <p><img src='/assets/images/star 1.png'/> 4.9/5.0</p>
+              <p className='ava'><img src='/assets/images/estrela.png'/> 4.9/5.0</p>
               <img className='tp' src='/assets/images/tradeport.png'/>
             </div>
             <div className='third'>
               <p>Compromisso Com o Cliente</p>
-              <p><img src='/assets/images/star 1.png'/> 4.5/5.0</p>
+              <p className='ava'><img src='/assets/images/estrela.png'/> 4.5/5.0</p>
               <img src='/assets/images/startuphero.png'/>
             </div>
           </div>

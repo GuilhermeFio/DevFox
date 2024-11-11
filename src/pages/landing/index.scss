@@ -376,6 +376,13 @@ scroll-behavior: smooth;
                     }
                 }
 
+                .ava{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 1vh;
+                }
+
                 .first{
                     display: flex;
                     flex-direction: column;

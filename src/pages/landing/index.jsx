@@ -33,70 +33,72 @@ function Landing() {
           <h2>A frente no mercado com parcerias gigantes, como: </h2>
 
           <div class="slide-track">
-            <div class="slide">
-                <img src="/assets/images/BK.png" height="150" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/pepe.png" height="150" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/xixi.png" height="150" width="190" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/coca-cola-logo-0.png" height="190" width="190" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/adidas-39.png" height="90" width="100" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/nike_PNG12.png" height="90" width="170" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/BK.png" height="150" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/pepe.png" height="150" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/xixi.png" height="150" width="190" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/coca-cola-logo-0.png" height="190" width="190" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/adidas-39.png" height="100" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/nike_PNG12.png" height="100" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/BK.png" height="150" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/pepe.png" height="150" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/xixi.png" height="150" width="190" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/coca-cola-logo-0.png" height="190" width="190" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/adidas-39.png" height="100" width="150" />
-            </div>
-            <div class="slide">
-                <img src="/assets/images/nike_PNG12.png" height="100" width="150" />
-            </div>
-        </div>
+              <div class="slide">
+                  <img src="/assets/images/dell.png" height="90" width="100" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/xiaomi.png" height="150" width="190" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/apple.png" height="90" width="100" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/BK.png" height="110" width="110" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/pepsi.png" height="110" width="110" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/nike_PNG12.png" height="90" width="170" />
+              </div>
+
+              <div class="slide">
+                  <img src="/assets/images/dell.png" height="90" width="100" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/xiaomi.png" height="150" width="190" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/apple.png" height="90" width="100" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/BK.png" height="110" width="110" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/pepsi.png" height="110" width="110" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/nike_PNG12.png" height="100" width="150" />
+              </div>
+
+              <div class="slide">
+                  <img src="/assets/images/dell.png" height="90" width="100" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/xiaomi.png" height="150" width="190" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/apple.png" height="90" width="100" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/BK.png" height="110" width="110" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/pepsi.png" height="110" width="110" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
+              </div>
+              <div class="slide">
+                  <img src="/assets/images/nike_PNG12.png" height="100" width="150" />
+              </div>
+          </div>
         </section>
 
         <section className='secao3'  id='servicos'>
@@ -124,7 +126,7 @@ function Landing() {
               <div className='separador'>
               <img src="/assets/images/seguranca.jfif" alt="" />
               <div className='textoinvisivel'>
-                <p>Sua segurança é nossa prioridade! Trabalhamos para blindar o seu site contra ameaças digitais, garantindo a proteção de dados e a confiança dos seus clientes. Deixe o lado técnico conosco, enquanto você foca em fazer seu negócio crescer.</p>
+                <p>Sua segurança é nossa prioridade! Trabalhamos para blindar o seu site contra ameaças digitais, garantindo a proteção de dados e a confiança dos seus clientes. Deixe o lado técnico conosco, enquanto você foca em exercer o seu negócio.</p>
               </div>
               </div>
               

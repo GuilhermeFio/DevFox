@@ -1,7 +1,5 @@
 import './index.scss';
 
-import { Link } from 'react-router-dom'
-
 function Landing() {
   return (
     <div className="pagina-Landing">
@@ -43,16 +41,16 @@ function Landing() {
                   <img src="/assets/images/apple.png" height="90" width="100" />
               </div>
               <div class="slide">
-                  <img src="/assets/images/BK.png" height="110" width="110" />
+                  <img src="/assets/images/AMD.png" height="100" width="200" />
               </div>
               <div class="slide">
-                  <img src="/assets/images/pepsi.png" height="110" width="110" />
+                  <img src="/assets/images/meta.webp" height="200" width="200" />
               </div>
               <div class="slide">
                   <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
               </div>
               <div class="slide">
-                  <img src="/assets/images/nike_PNG12.png" height="90" width="170" />
+                  <img src="/assets/images/HP.png" height="100" width="200" />
               </div>
 
               <div class="slide">
@@ -65,16 +63,16 @@ function Landing() {
                   <img src="/assets/images/apple.png" height="90" width="100" />
               </div>
               <div class="slide">
-                  <img src="/assets/images/BK.png" height="110" width="110" />
+                  <img src="/assets/images/AMD.png" height="100" width="200" />
               </div>
               <div class="slide">
-                  <img src="/assets/images/pepsi.png" height="110" width="110" />
+                  <img src="/assets/images/meta.webp" height="200" width="200" />
               </div>
               <div class="slide">
                   <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
               </div>
               <div class="slide">
-                  <img src="/assets/images/nike_PNG12.png" height="100" width="150" />
+                  <img src="/assets/images/HP.png" height="100" width="200" />
               </div>
 
               <div class="slide">
@@ -87,16 +85,16 @@ function Landing() {
                   <img src="/assets/images/apple.png" height="90" width="100" />
               </div>
               <div class="slide">
-                  <img src="/assets/images/BK.png" height="110" width="110" />
+                  <img src="/assets/images/AMD.png" height="100" width="200" />
               </div>
               <div class="slide">
-                  <img src="/assets/images/pepsi.png" height="110" width="110" />
+                  <img src="/assets/images/meta.webp" height="200" width="200" />
               </div>
               <div class="slide">
                   <img src="/assets/images/Nescafe-Logo.png" height="150" width="150" />
               </div>
               <div class="slide">
-                  <img src="/assets/images/nike_PNG12.png" height="100" width="150" />
+                  <img src="/assets/images/HP.png" height="100" width="200" />
               </div>
           </div>
         </section>
